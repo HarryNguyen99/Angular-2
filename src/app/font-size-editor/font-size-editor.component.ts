@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FontSizeEditorComponent implements OnInit {
   fontSize = 14;
   constructor() { }
+  // tslint:disable-next-line:typedef
   onChange(value) {
     this.fontSize = value;
   }
